@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="stylesheet.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Datos Personales</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html">Datos Personales</a></li>
+                <li><a href="index2.html">Familiares</a></li>
+                <li><a href="index3.html">Condiciones Pre-Existentes de Salud</a></li>
+                <li><a href="index4.html">Internamientos Realizados</a></li>
+                <li><a href="index5.html">Datos Registrados</a></li>
+            </ul>
+        </header>
+        <h1>Datos Personales</h1>
+        <form>
+            <label id="lblnombre" name="lblnombre">Nombre </label>
+            <br>
+            <input for="lblnombre" id="inputnombre" name="inputnombre" type="text" placeholder="Coloque su nombre..." required>
+            <br>
+            <label id="lblapellidos" name="lblapellidos">Apellidos </label>
+            <br>
+            <input for="lblapellidos" name="inputapellidos" id="inputapellidos" type="text" placeholder="Coloque sus apellidos..."required>
+            <br>
+            <label id="labelsexo" name="labelsexo">Sexo:    </label> 
+            <input for="radiosexo" type="radio" name="radioopcion" value="opcion1">Masculino</option>
+            <input for="radiosexo" type="radio" name="radioopcion" value="opcion2">Femenino</option>
+            <br>
+            <label>Edad:    </label>
+            <input id="selectedad" name="selectedad" type="number" min="0" max="120" required>
+            <br>
+            <button id="btnenvio" name="btnenvio" type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

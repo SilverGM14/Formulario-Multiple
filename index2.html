@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="stylesheet.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datos Personales</title>
+        <script src="script.js" defer></script>
+    </head>
+        <body>
+            <header>
+                <ul>
+                    <li><a href="index.html">Datos Personales</a></li>
+                    <li><a href="index2.html">Familiares</a></li>
+                    <li><a href="index3.html">Condiciones Pre-Existentes de Salud</a></li>
+                    <li><a href="index4.html">Internamientos Realizados</a></li>
+                    <li><a href="index5.html">Datos Registrados</a></li>
+                </ul>
+            </header>
+            <form id="formDatosFamiliares">
+                <h1>Familiares</h1>
+                <label for="nombrefamiliar">Nombre:</label>
+                <input id="nombrefamiliar" name="nombrefamiliar" type="text">
+                <br>
+                <label for="apellidosfamiliar">Apellidos:</label>
+                <input id="apellidosfamiliar" name="apellidosfamiliar" type="text">
+                <br>
+                <label for="parentescofamiliar">Parentesco:</label>
+                <input id="parentescofamiliar" name="parentescofamiliar" type="text">
+                <br>
+                <label for="edadfamiliar">Edad:</label>
+                <input id="edadfamiliar" name="edadfamiliar" min="0" max="125" type="number">
+                <br>
+                <button id="btnanadir" name="btnanadir" type="submit">Añadir</button>
+            </form>
+        </body>
+</html>

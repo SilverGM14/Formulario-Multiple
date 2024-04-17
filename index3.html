@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="stylesheet.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datos Personales</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html">Datos Personales</a></li>
+                <li><a href="index2.html">Familiares</a></li>
+                <li><a href="index3.html">Condiciones Pre-Existentes de Salud</a></li>
+                <li><a href="index4.html">Internamientos Realizados</a></li>
+                <li><a href="index5.html">Datos Registrados</a></li>
+            </ul>
+        </header>
+        <form id="formCondicionesSalud">
+            <h1>Condiciones De Salud</h1>
+            <label for="inputseleccionaf">Seleccione:</label>
+            <input id="inputseleccionaf" name="inputseleccionaf" type="search">
+            <br>
+            <h3>Seleccione las condiciones que padece</h3>
+            <br>
+            <label for="hipertension">Hipertension</label>
+            <input id="hipertension" name="hipertension" type="checkbox">
+            <br>
+            <label for="diabetes">Diabetes tipo 1</label>
+            <input id="diabetes" name="diabetes" type="checkbox">
+            <br>
+            <label for="diabetes2">Diabetes tipo 2</label>
+            <input id="diabetes2" name="diabetes2" type="checkbox">
+            <br>
+            <label for="epulmonar">Enfermedad pulmonar cronica</label>
+            <input id="epulmonar" name="epulmonar" type="checkbox">
+            <br>
+            <button id="btncondiciones" name="btncondiciones" type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
